@@ -326,10 +326,10 @@ bool CommandLineParser::has(const String& name) const
     return false;
 }
 
-bool CommandLineParser::check() const
+/*bool CommandLineParser::check() const
 {
     return impl->error == false;
-}
+}*/
 
 void CommandLineParser::printErrors() const
 {

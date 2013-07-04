@@ -328,7 +328,7 @@ class CV_EXPORTS CommandLineParser
 
     bool has(const String& name) const;
 
-    bool check() const;
+    //bool check() const;
 
     void about(const String& message);
 
